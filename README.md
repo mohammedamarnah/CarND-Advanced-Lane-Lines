@@ -31,7 +31,7 @@ The goals / steps of this project are the following:
 [image7]: ./README-images/download-4.png "Histogram"
 [image8]: ./README-images/download-5.png "Line Detection"
 [image9]: ./README-images/download-6.png "Final Pipeline (shows polynomial fitting)"
-[video1]: ./README-images/project_video_output.mp4 "Output Video"
+[video1]: ./project_video_output.mp4 "Output Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
