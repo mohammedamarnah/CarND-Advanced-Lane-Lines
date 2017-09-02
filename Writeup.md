@@ -86,7 +86,7 @@ In this step, I created a histogram from the outputted image from the transforma
 
 ![alt text][image7]
 
-#### 2. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
+#### 2. Lane Finding using Sliding Window
 
 After finding the histogram, I applied the sliding window algorithm to identify the lanes in the image (the peaks in the histogram). You'll find two functions that does the same thing, the first one was just to test the algorithm on a single image and it was called `findLines_test()`. I made sure the algorithm is working correctly and that it fits the lines well. Here's a sample of the output I got: 
 
