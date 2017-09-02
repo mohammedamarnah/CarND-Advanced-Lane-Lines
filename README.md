@@ -25,12 +25,12 @@ The goals / steps of this project are the following:
 [image1]: ./README-images/Originalcal.png "Original Chessboard"
 [image2]: ./README-images/Processedcal.png "Undistorted Chessboard"
 [image3]: ./README-images/download.png "Original Image"
-[image4]: ./README-images/download1.png "Different Gradient Thresholding methods"
-[image5]: ./README-images/download2.png "Color Thresholding(left), and Combined Thresholding(right)"
-[image6]: ./README-images/download3.png "Perspective Transformation"
-[image7]: ./README-images/download4.png "Histogram"
-[image8]: ./README-images/download5.png "Line Detection"
-[image9]: ./README-images/download6.png "Final Pipeline (shows polynomial fitting)"
+[image4]: ./README-images/download-1.png "Different Gradient Thresholding methods"
+[image5]: ./README-images/download-2.png "Color Thresholding(left), and Combined Thresholding(right)"
+[image6]: ./README-images/download-3.png "Perspective Transformation"
+[image7]: ./README-images/download-4.png "Histogram"
+[image8]: ./README-images/download-5.png "Line Detection"
+[image9]: ./README-images/download-6.png "Final Pipeline (shows polynomial fitting)"
 [video1]: ./README-images/project_video_output.mp4 "Output Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
