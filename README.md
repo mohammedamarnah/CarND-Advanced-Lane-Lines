@@ -22,8 +22,8 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./README-images/originalcal.png "Original Chessboard"
-[image2]: ./README-images/Processedcal.png "Undistorted Chessboard"
+[image1]: "./README images/originalcal.png" "Original Chessboard"
+[image2]: "./README-images/Processedcal.png" "Undistorted Chessboard"
 [image3]: ./README-images/download.png "Original Image"
 [image4]: ./README-images/download1.png "Different Gradient Thresholding methods"
 [image5]: ./README-images/download2.png "Color Thresholding(left), and Combined Thresholding(right)"
