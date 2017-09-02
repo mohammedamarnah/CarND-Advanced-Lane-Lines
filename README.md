@@ -106,6 +106,11 @@ And then finally, I applied the pipeline on the project video and here's the res
 
 [link to my video result](./README images/project_video_output.mp4)
 
+Here's a link for the video on youtube:
+https://youtu.be/0Z_x0EgV8HU
+
+UPD: I tried the pipeline on the challenge video and it's working well. I'll update again after trying it on the harder challenge video! :D .
+
 ---
 
 ### Discussion
