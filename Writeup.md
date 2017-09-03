@@ -31,7 +31,8 @@ The goals / steps of this project are the following:
 [image7]: ./README-images/download-4.png "Histogram"
 [image8]: ./README-images/download-5.png "Line Detection"
 [image9]: ./README-images/download-6.png "Final Pipeline (shows polynomial fitting)"
-[video1]: ./README-images/project_video_output.mp4 "Output Video"
+[image10]: ./README-images/download7.png "Undistorted Road Image"
+[video1]: ./project_video_output.mp4 "Output Video"
 
 ## [Rubric](https://review.udacity.com/#!/rubrics/571/view) Points
 
@@ -58,10 +59,14 @@ I then used the output `objectpoints` and `imagepoints` to compute the camera ca
 ![alt text][image1]
 ![alt text][image2]
 
+I then tested the calibration and undistortion pipeline on the test images from the road. Here are some results:
+
+![alt text][image10]
+
 ### Color/Gradient Threshold
 
 #### 1. Gradient Thresholding
-In this step, I tried applying different gradient thresholding methods on a random image from my testing set. I tried Sobel on the x-axis and the y-axis, and then I tried the magnitude threshold, and then the direction of the gradient threshold. 
+In this step, I tried applying different gradient thresholding methods on a random image from my testing set. The first thing I did was a gaussian blur to remove the noise, after that I tried Sobel on the x-axis and the y-axis, and then I tried the magnitude threshold, and then the direction of the gradient threshold. 
 Finally I tried a combined (gradient only) threshold. Here are some of the results that I got in each step:
 
 ![alt text][image3]
@@ -69,7 +74,7 @@ Finally I tried a combined (gradient only) threshold. Here are some of the resul
 ![alt text][image4]
 
 #### 2. Color Thresholding (+ Combined Final Threshold)
-Next, I tried applying color thresholds on images. And after that, I applied a threshold that combines color and gradient thresholds in one image to create a binary image. Here are the results I got:
+Next, I tried applying color thresholds on images along with a mask that discards the environment around the lane lines (noise). And after that, I applied a threshold that combines color and gradient thresholds in one image to create a binary image. Here are the results I got:
 
 ![alt text][image5]
 
@@ -104,10 +109,10 @@ In the final step, I implemented a function that takes an image, applies all of 
 
 And then finally, I applied the pipeline on the project video and here's the result I got:
 
-[link to my video result](./README images/project_video_output.mp4)
+[link to my video result](./project_video_output.mp4)
 
 Here's a link for the video on youtube:
-https://youtu.be/0Z_x0EgV8HU
+https://youtu.be/l-0L3U08GhI
 
 UPD: I tried the pipeline on the challenge video and it's working well. I'll update again after trying it on the harder challenge video! :D .
 
